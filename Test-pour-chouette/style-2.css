@@ -53,30 +53,66 @@ h1 {
   text-align: center;
   top: 120px;
 }
+h4 {
+  font-family: "Roboto", sans-ser;
+  letter-spacing: 1px;
+}
+.image {
+  height: 50px;
+  position: absolute;
+  left: -60px;
+}
 
 /**************************************Cologne Centre *********************************/
 
 .DEVELOPPEMENT {
   position: absolute;
-  bottom: 400px;
-  left: 30%;
+  bottom: 41%;
+  left: 35%;
 }
 
 .APPLICATIONS {
   position: absolute;
-  bottom: 400px;
+  bottom: 41%;
   left: 55%;
 }
 
 .CONSULTING {
-  bottom: 250px;
+  bottom: 26%;
   position: absolute;
-  left: 30%;
+  left: 35%;
 }
 
 .OPTIMISATION {
   position: absolute;
-  bottom: 250px;
+  bottom: 27%;
   left: 55%;
 }
-/**************************************Cologne droite *********************************/
+
+/**************************************Cologne GAUCHE *********************************/
+
+.solution {
+  position: absolute;
+  bottom: 41%;
+  left: 12%;
+}
+
+.WEBMARKETING {
+  position: absolute;
+  left: 12%;
+  bottom: 26%;
+}
+
+/************************************* Cologne doite ***********************************/
+
+.HEBERGEMENT {
+  position: absolute;
+  bottom: 41%;
+  right: 15%;
+}
+
+.ACCOMPAGNEMENT {
+  position: absolute;
+  right: 13.2%;
+  bottom: 25%;
+}
