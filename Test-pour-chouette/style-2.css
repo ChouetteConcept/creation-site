@@ -28,7 +28,7 @@ nav {
   position: absolute;
   width: 60%;
   height: 50px;
-  left: 360px;
+  left: 310px;
   z-index: 2;
 }
 
@@ -115,4 +115,48 @@ h4 {
   position: absolute;
   right: 13.2%;
   bottom: 25%;
+}
+/******************************Footer*****************************************************/
+
+footer {
+  background-color: white;
+  height: 120px;
+  position: absolute;
+  bottom: 00%;
+  width: 98%;
+  left: 2%;
+}
+
+#mentions {
+  position: absolute;
+  left: 35%;
+  bottom: 60%;
+}
+
+#Gestion {
+  position: absolute;
+  bottom: 60%;
+  left: 50%;
+}
+
+#copy {
+  position: absolute;
+  left: 35%;
+  bottom: 20%;
+}
+
+#icon {
+  position: absolute;
+  bottom: 5%;
+  right: 0%;
+  margin: 0 50px;
+}
+
+i {
+  margin: 0 10px;
+}
+
+#linke {
+  position: absolute;
+  right: -25px;
 }
