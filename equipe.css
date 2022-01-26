@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    background: linear-gradient(
+    to right,
+    #23445ab4 2%,
+    #47454073 2% 27%,
+    rgb(212, 209, 209) 27% 72%,
+    #4745408a 71% 100%
+    );
+    }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 0.06fr 1fr 1.8fr 1.1fr;
+    grid-template-rows: 1fr 3.8fr 3.8fr 1fr;
+}
+
+.icone_chouette {
+    width: 50px;
+    grid-column: 2;
+    grid-row: 1;
+    position: absolute;
+    margin-left: 50px;
+}
+
+.header_menu {
+    grid-column: 2/4;
+    grid-row: 1;
+}
+nav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-left: 23%;
+    background-color: #fff;
+    width: 53%;
+    height: 4%;
+    border: solid 1px #000;
+}
+.header_nav_accueil {
+    display: flex;
+    margin-left: 6%;
+    font-size: 25px;
+    padding-right: 6%;
+    border-right: solid 1px #000;
+}
+.header_nav_prestations {
+    display: flex;
+    margin-left: 5%;
+    font-size: 25px;
+    padding-right: 5%;
+    border-right: solid 1px #000;
+}
+.header_nav_avis {
+    display: flex;
+    margin-left: 8%;
+    font-size: 25px;
+    padding-right: 8%;
+    border-right: solid 1px #000;
+}
+.header_nav_equipe {
+    display: flex;
+    margin-left: 6%;
+    font-size: 25px;
+    padding-right: 6%;
+    border-right: solid 1px #000;
+}
+.header_nav_contact {
+    display: flex;
+    margin-left: 6%;
+    font-size: 25px;
+    padding-right: 6%;
+}
+
+.central_section {
+    grid-column: 3;
+    grid-row: 2/4;
+}
+.page_heading {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.prez_entreprise {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 12%;
+}
+.liste_puces {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 2%; 
+    padding: 0 120px;
+}
+
+.aicha{
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nom_aicha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.metier_aicha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.specification_aicha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clois{
+    grid-column: 2;
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nom_clois {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.metier_clois {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maxime{
+    grid-column: 4;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nom_maxime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.metier_maxime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.michelle{
+    grid-column: 4;
+    grid-row: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nom_michelle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.metier_michelle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.specification_michelle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bas_page{
+    grid-column: 2/4;
+    grid-row: 4;
+}
+
