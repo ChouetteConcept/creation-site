@@ -1,3 +1,61 @@
+nav{
+        position: absolute;
+        margin: -0px 1860px;
+        width: 0%;
+        height: 100px;
+        background: white;
+}
+nav .burger{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+nav .burger a{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        text-decoration: none;
+        font-family: Arial, sans-serif;
+        color: 0B2641;
+}
+nav a:hover{
+        background: rgb(163, 163, 163);
+}
+label, #toggle{
+        display: none;
+}
+@media all{
+        nav{
+                height: 60px;
+        }
+        nav .burger{
+                display:none;
+                flex-direction: column;
+                background: white;
+                height: 220px;
+        }
+        nav .burger a{
+                width: 50%;
+        }
+        label{
+                width: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                font-size: 60px;
+                color: 0B2641;
+                cursor: pointer;
+        }
+        #toggle:checked + .burger{
+                display: flex;
+        }
+}
+/*TOP WIP*/
+
+
 .bg_img{
         position: absolute;
         width: 100%;
