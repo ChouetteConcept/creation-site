@@ -4,10 +4,10 @@
         height: 100%;
         margin: -8;
         z-index: -2;
-        background-image: url(metier-webdesigner-1140x642.png);
+        background-image: url(metier-webdesigner-1140x642_modded.png);
         background-repeat: no-repeat;
         background-size: cover;
-        filter: saturate(10%);
+        filter: saturate(15%);
 }
 .columns{
         position: absolute;
@@ -20,11 +20,73 @@
 conteneur{
         display: flex;
         justify-content: center;
+        margin-left: -40px;
 }
 .logo{
-        width: 15%;
-        display: block;
-        
+        width: 20%;
+        display: flex;
         position: absolute;
-        
+        margin-top: 50px;
+}
+.under_text{
+        /* placeholder*/
+}
+#mid_text{
+        display:flex;
+        justify-content: center;
+        font-family: 'roboto',sans-serif;
+        color: #23445A;
+        margin-left: -40px;
+        font-size: 48;
+        margin-top: 500px;
+        margin-bottom: -40px;
+}
+#mid_text2{
+        display: flex;
+        justify-content: center;
+        font-family: 'roboto',sans-serif;
+        color: #23445A;
+        margin-left: -40px;
+        font-size: 48;      
+}
+#mid_text3{
+        display: flex;
+        justify-content: center;
+        margin-left: -40px;
+        font-family: 'roboto' ,sans-serif;
+        color: #0B2641;
+        font-size: 38;
+        font-style: italic;
+        margin-top: 150px;
+}
+.sides{
+        /* placeholder */
+}
+#left_button{
+        display: flex;
+        margin-top: -330px;
+        margin-left: 275px;
+        font-family: 'roboto',sans-serif;
+        font-size: 40;
+        color: #000000;
+        font-style: bold;
+}
+#nos_offres{
+        display: flex;
+        margin-left: 150px;
+        margin-top: -100px;
+}
+#right_button{
+        display: flex;
+        margin-top: -80px;
+        margin-left: 1420px;
+        font-family: 'roboto',sans-serif;
+        font-size: 40;
+        color: #000000;
+        font-style: bold;
+}
+#nous_contacter{
+        display: flex;
+        margin-left: 1720px;
+        margin-top: -100px;
 }
