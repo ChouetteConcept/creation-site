@@ -20,4 +20,4 @@ L'ensemble a été réalisé par un autre groupe de la formation sur FIGMA.
 
 ### Eléments et attributs
 
-Apprentissage et intérêt porté sur grid et flexbox, ainsi que sur la responsivité des pages avec les media queries.
+Apprentissage et intérêt porté sur grid et flexbox, ainsi que sur l'accessibilité et la responsivité des pages.
