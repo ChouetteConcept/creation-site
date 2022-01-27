@@ -45,7 +45,7 @@ nav {
 .header_nav_accueil {
     display: flex;
     margin-left: 6%;
-    font-size: 25px;
+    font-size: 25px;        
     padding-right: 6%;
     border-right: solid 1px #000;
 }
