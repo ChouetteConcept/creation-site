@@ -194,6 +194,10 @@ nav {
     width: 98%;
     left: 2%;
 }
+#footer_text {
+    position: absolute;
+    margin: 1%;
+}
 #mentions {
     position: absolute;
     left: 35%;
