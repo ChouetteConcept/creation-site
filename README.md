@@ -1,4 +1,4 @@
-<center> ![logo Chouette-Concept](icone/chouette_icone.png) </center>
+![logo Chouette-Concept](icone/chouette_icone.png)
 
 Création d'un site pour l'agence web, fictive, Chouette Concept.
 Ce site sert à présenter l'agence, l'équipe, leurs prestations.
