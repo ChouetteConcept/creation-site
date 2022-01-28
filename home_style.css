@@ -156,9 +156,14 @@ label, #home_toggle{
         margin-left: 89%;
         margin-top: -5%;
 }
-@media (max-width: 850px) {
-        :is(.home_sides, #left_button, #nos_offres, #right_button, #nous_contacter) { 
+/*@media (max-width: 850px) {
+        :is(.home_sides, #left_button, #nos_offres, #right_button, #nous_contacter) {
         font-size: 3vw; 
+        }
+}*/
+@media (max-width: 1500px){
+        body{
+                display: none;
         }
 }
 /* c'est pas propre à 99% */
