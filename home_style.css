@@ -7,7 +7,7 @@ body{
 }
 .nav_burger{
         position: absolute;
-        margin: 0 97.5%;
+        margin: 0 97%;
         width: 0%;
         height: 100px;
         background: white;
@@ -93,9 +93,6 @@ label, #home_toggle{
         position: absolute;
         margin-top: 3%;
 }
-.under_text{
-        /*placeholder*/
-}
 #mid_text{
         display: flex;
         justify-content: center;
@@ -124,8 +121,13 @@ label, #home_toggle{
         font-style: italic;
         margin-top: 10%;
 }
+/* responsive HELP !*/
 .home_sides{
-/* placeholder */
+        
+        justify-content: center;
+        margin: auto;
+        width: auto;
+        height: auto;
 }
 #left_button{
         display: flex;
@@ -155,4 +157,9 @@ label, #home_toggle{
         margin-left: 89%;
         margin-top: -5%;
 }
-/* c'est pas propre 99% */
+@media (max-width: 850px) {
+        :is(.home_sides, #left_button, #nos_offres, #right_button, #nous_contacter) { 
+        font-size: 2vw; 
+        }
+}
+/* c'est pas propre à 99% */
