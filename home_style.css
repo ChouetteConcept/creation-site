@@ -123,15 +123,14 @@ label, #home_toggle{
 }
 /* responsive HELP !*/
 .home_sides{
-        
-        justify-content: center;
+        position: relative;
         margin: auto;
         width: auto;
         height: auto;
 }
 #left_button{
         display: flex;
-        margin-top: -21%;
+        margin-top: -23%;
         margin-left: 13%;
         font-family: 'roboto',sans-serif;
         font-size: 250%;
@@ -141,11 +140,11 @@ label, #home_toggle{
 #nos_offres{
         display: flex;
         margin-left: 8%;
-        margin-top: -5%;
+        margin-top: -3%;
 }
 #right_button{
         display: flex;
-        margin-top: -4%;
+        margin-top: -5%;
         margin-left: 74%;
         font-family: 'roboto',sans-serif;
         font-size: 250%;
@@ -159,7 +158,7 @@ label, #home_toggle{
 }
 @media (max-width: 850px) {
         :is(.home_sides, #left_button, #nos_offres, #right_button, #nous_contacter) { 
-        font-size: 2vw; 
+        font-size: 3vw; 
         }
 }
 /* c'est pas propre à 99% */
