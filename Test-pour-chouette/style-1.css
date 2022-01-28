@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  position: absolute;
+  left: 40px;
+  height: 50px;
+}
+
+body {
+  background: linear-gradient(
+    to right,
+    #23445ab4 2%,
+    #47454073 2% 27%,
+    rgb(212, 209, 209) 27% 72%,
+    #4745408a 71% 100%
+  );
+}
+
+/*******************************************Nav-Bar*************************************/
+
+nav {
+  background: rgb(252, 250, 250);
+  position: absolute;
+  width: 60%;
+  height: 50px;
+  left: 310px;
+  z-index: 2;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+  list-style-type: none;
+  border: 1px solid black;
+}
+/*******************************************Nav-Bar FIN*************************************/
+h1 {
+  position: relative;
+  text-align: center;
+  top: 100px;
+  font-family: "Roboto", sans-serif;
+}
+
+#texte {
+  position: relative;
+  text-align: center;
+  top: 120px;
+}
+
+h4 {
+  font-family: "Roboto", sans-ser;
+  letter-spacing: 1px;
+}
+
+/********************** La classe des petites icones de la page ***********************/
+.image {
+  height: 50px;
+  position: absolute;
+  left: -60px;
+}
+/********************** La classe des petites icones de la page FIN ***********************/
+
+/**************************************Cologne Centre *********************************/
+
+.developpement {
+  position: absolute;
+  bottom: 41%;
+  left: 35%;
+}
+
+.applications {
+  position: absolute;
+  bottom: 41%;
+  left: 55%;
+}
+
+.consulting {
+  bottom: 26%;
+  position: absolute;
+  left: 35%;
+}
+
+.optimisation {
+  position: absolute;
+  bottom: 27%;
+  left: 55%;
+}
+/**************************************Cologne Centre FIN *********************************/
+
+/**************************************Cologne GAUCHE *************************************/
+
+.solution {
+  position: absolute;
+  bottom: 41%;
+  left: 12%;
+}
+
+.webmarketing {
+  position: absolute;
+  left: 12%;
+  bottom: 26%;
+}
+
+/************************************Cologne GAUCHE fin ***********************************/
+
+/************************************* Cologne doite **************************************/
+
+.hebergement {
+  position: absolute;
+  bottom: 41%;
+  right: 15%;
+}
+
+.accompagnement {
+  position: absolute;
+  right: 13.2%;
+  bottom: 25%;
+}
+
+/************************************* Cologne doite FIN **************************************/
+
+/***************************************Footer*************************************************/
+
+footer {
+  background-color: white;
+  height: 120px;
+  position: absolute;
+  bottom: 00%;
+  width: 98%;
+  left: 2%;
+}
+
+#adresse {
+  position: relative;
+  top: 15%;
+}
+
+#mentions {
+  position: absolute;
+  left: 35%;
+  bottom: 60%;
+}
+
+#Gestion {
+  position: absolute;
+  bottom: 60%;
+  left: 50%;
+}
+
+#copy {
+  position: absolute;
+  left: 35%;
+  bottom: 20%;
+}
+
+#icon {
+  position: absolute;
+  bottom: 5%;
+  right: 3%;
+  margin: 0 50px;
+  letter-spacing: 20px;
+}
+/***************************************Footer FIN*******************************************/
+
+/************************* Responsive **************************/
+
+@media screen and (max-width: 1100px) {
+  body {
+    display: block;
+  }
+  main {
+    width: 100%;
+    overflow: hidden;
+  }
+  header {
+    top: 60%;
+    right: 50%;
+  }
+
+  .tablette {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: block;
+  }
+
+  .solution {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+  }
+  .WEBMARKETING {
+    position: absolute;
+    bottom: 45%;
+    left: 60%;
+  }
+
+  .DEVELOPPEMENT {
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+  }
+  .APPLICATIONS {
+    position: absolute;
+    bottom: 35%;
+    left: 60%;
+  }
+}
