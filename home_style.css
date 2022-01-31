@@ -4,6 +4,7 @@ body{
         padding: 0;
         max-width: 100%;
         max-height: 100%;
+        min-width: 100%;
 }
 .nav_burger{
         position: absolute;
@@ -40,7 +41,7 @@ label, #home_toggle{
         .nav_burger .burger{
                 display: none;
                 flex-direction: column;
-                background: white;
+                background: rgb(255, 255, 255);
                 height: 220px;
         }
         .nav_burger .burger a{
@@ -53,7 +54,7 @@ label, #home_toggle{
                 align-items: center;
                 margin: 0 auto;
                 font-size: 60px;
-                color: 0B2641;
+                color: #23445A;
                 cursor: pointer;
         }
         #home_toggle:checked + .burger{
@@ -98,8 +99,8 @@ label, #home_toggle{
         justify-content: center;
         font-family: 'roboto',sans-serif;
         color: #23445A;
-        margin-left: -4%;
-        font-size: 250%;
+        margin-left: -3%;
+        font-size: 3vw;
         margin-top: 30%;
         margin-bottom: -2%;
 }
@@ -108,8 +109,8 @@ label, #home_toggle{
         justify-content: center;
         font-family: 'roboto',sans-serif;
         color: #23445A;
-        margin-left: -4%;
-        font-size: 250%;   
+        margin-left: -2%;
+        font-size: 3vw;   
 }
 #mid_text3{
         display: flex;
@@ -117,23 +118,18 @@ label, #home_toggle{
         margin-left: -3%;
         font-family: 'roboto' ,sans-serif;
         color: #0B2641;
-        font-size: 200%;
+        font-size: 2vw;
         font-style: italic;
-        margin-top: 10%;
+        margin-top: 6%;
 }
 /* responsive HELP !*/
-.home_sides{
-        position: relative;
-        margin: auto;
-        width: auto;
-        height: auto;
-}
+
 #left_button{
         display: flex;
-        margin-top: -23%;
+        margin-top: -21%;
         margin-left: 13%;
         font-family: 'roboto',sans-serif;
-        font-size: 250%;
+        font-size: 2.5vw;
         color: #000000;
         font-style: bold;
 }
@@ -141,27 +137,29 @@ label, #home_toggle{
         display: flex;
         margin-left: 8%;
         margin-top: -3%;
+        width: 3%;
 }
 #right_button{
         display: flex;
-        margin-top: -5%;
+        margin-top: -3%;
         margin-left: 74%;
         font-family: 'roboto',sans-serif;
-        font-size: 250%;
+        font-size: 2.5vw;
         color: #000000;
         font-style: bold;
 }
 #nous_contacter{
         display: flex;
-        margin-left: 89%;
-        margin-top: -5%;
+        margin-left: 90%;
+        margin-top: -4%;
+        width: 3%;
 }
 /*@media (max-width: 850px) {
         :is(.home_sides, #left_button, #nos_offres, #right_button, #nous_contacter) {
         font-size: 3vw; 
         }
 }*/
-@media (max-width: 1500px){
+/*@media (max-width: 1500px){
         body{
                 display: none;
         }
