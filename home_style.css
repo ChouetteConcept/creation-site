@@ -1,4 +1,7 @@
 /* le responsive c'est chiant *_*/
+*{
+        text-decoration: none;
+}
 body{
         margin: 0;
         padding: 0;
@@ -28,7 +31,7 @@ body{
         font-family: Arial, sans-serif;
         color: #23445A;
 }
-.nav_burger a:hover{
+.nav_burger, a:hover{
         background: rgb(163, 163, 163);
 }
 label, #home_toggle{
@@ -41,7 +44,6 @@ label, #home_toggle{
         .nav_burger .burger{
                 display: none;
                 flex-direction: column;
-                background: rgb(255, 255, 255);
                 height: 220px;
         }
         .nav_burger .burger a{

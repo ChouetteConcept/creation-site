@@ -27,9 +27,10 @@ p {
 
 /***********************taille et positionnement de l'icone de la chouette *************/
 #icon {
-  left: 35px;
+  left: 5.5%;
   position: relative;
-  height: 50px;
+  height: 5%;
+  margin-top: 0.5%;
 }
 
 .mini {
@@ -64,37 +65,37 @@ nav {
 }
 .header_nav_accueil {
   display: flex;
-  margin-left: 5%;
-  font-size: 25px;
-  padding-right: 5%;
+  margin-left: 4.8%;
+  font-size: 1.5vw;        
+  padding-right: 4.8%;
   border-right: solid 1px #000;
 }
 .header_nav_prestations {
   display: flex;
-  margin-left: 4%;
-  font-size: 25px;
-  padding-right: 4%;
+  margin-left: 3.8%;
+  font-size: 1.5vw;
+  padding-right: 3.8%;
   border-right: solid 1px #000;
 }
 .header_nav_avis {
   display: flex;
-  margin-left: 8%;
-  font-size: 25px;
-  padding-right: 8%;
+  margin-left: 7%;
+  font-size: 1.5vw;
+  padding-right: 7%;
   border-right: solid 1px #000;
 }
 .header_nav_equipe {
   display: flex;
-  margin-left: 6%;
-  font-size: 25px;
-  padding-right: 6%;
+  margin-left: 5.5%;
+  font-size: 1.5vw;
+  padding-right: 5.5%;
   border-right: solid 1px #000;
 }
 .header_nav_contact {
   display: flex;
   margin-left: 5%;
-  font-size: 25px;
-  padding-right: 6%;
+  font-size: 1.5vw;
+  padding-right: 5.8%;
 }
 
 /*******************************************Nav-Bar FIN*************************************/

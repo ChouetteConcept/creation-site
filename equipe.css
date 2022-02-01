@@ -6,6 +6,7 @@
 }
 
 body {
+    
     background: linear-gradient(
     to right,
     #23445ab4 2%,
@@ -22,7 +23,7 @@ body {
 }
 
 .icone_chouette {
-    width: 100%;
+    width: auto;
     height: auto;
     grid-column: 2;
     grid-row: 1;
@@ -43,6 +44,7 @@ nav {
     width: 53%;
     height: 4%;
     border: solid 1px #000;
+    top: 0;
 }
 .header_nav_accueil {
     display: flex;
@@ -201,21 +203,22 @@ nav {
 #footer_text {
     position: absolute;
     margin: 1%;
+    margin-left: 0%;
 }
 #mentions {
     position: absolute;
     left: 35%;
-    bottom: 60%;
+    bottom: 45%;
   }
   #gestion {
     position: absolute;
-    bottom: 60%;
+    bottom: 45%;
     left: 50%;
   }
   #copyright {
     position: absolute;
     left: 35%;
-    bottom: 20%;
+    bottom: 5%;
   }
   #icon {
     position: absolute;
