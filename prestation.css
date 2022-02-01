@@ -5,6 +5,10 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "roboto", sans-serif;
+  color: #000;
 }
 
 #logo {
@@ -26,21 +30,49 @@ body {
 /*******************************************Nav-Bar*************************************/
 
 nav {
-  background: rgb(252, 250, 250);
   position: absolute;
-  width: 60%;
-  height: 50px;
-  left: 310px;
-  z-index: 2;
-}
-
-ul {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding: 15px;
-  list-style-type: none;
-  border: 1px solid black;
+  margin-left: 20%;
+  background-color: #fff;
+  width: 60%;
+  height: 4%;
+  border: solid 1px #000;
+  top: 0%;
+}
+.header_nav_accueil {
+  display: flex;
+  margin-left: 5%;
+  font-size: 25px;
+  padding-right: 5%;
+  border-right: solid 1px #000;
+}
+.header_nav_prestations {
+  display: flex;
+  margin-left: 4%;
+  font-size: 25px;
+  padding-right: 4%;
+  border-right: solid 1px #000;
+}
+.header_nav_avis {
+  display: flex;
+  margin-left: 8%;
+  font-size: 25px;
+  padding-right: 8%;
+  border-right: solid 1px #000;
+}
+.header_nav_equipe {
+  display: flex;
+  margin-left: 6%;
+  font-size: 25px;
+  padding-right: 6%;
+  border-right: solid 1px #000;
+}
+.header_nav_contact {
+  display: flex;
+  margin-left: 5%;
+  font-size: 25px;
+  padding-right: 6%;
 }
 /*******************************************Nav-Bar FIN*************************************/
 h1 {
@@ -55,7 +87,9 @@ h1 {
   text-align: center;
   top: 120px;
 }
-
+p {
+  font-family: "Roboto", sans-serif;
+}
 h4 {
   font-family: "Roboto", sans-ser;
   letter-spacing: 1px;
@@ -177,42 +211,37 @@ footer {
   body {
     display: block;
   }
+  nav {
+    visibility: hidden;
+  }
   main {
     width: 100%;
-    overflow: hidden;
+    height: 500px;
   }
-  header {
-    top: 60%;
-    right: 50%;
-  }
-
-  .tablette {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    display: block;
+  h1 {
+    top: 80%;
+    left: 50%;
   }
 
   .solution {
     position: absolute;
-    bottom: 50%;
-    left: 50%;
+    bottom: 70%;
+    left: 40%;
   }
-  .WEBMARKETING {
+  .webmarketing {
     position: absolute;
-    bottom: 45%;
+    bottom: 65%;
     left: 60%;
   }
 
-  .DEVELOPPEMENT {
+  .developpement {
     position: absolute;
-    bottom: 40%;
-    left: 50%;
+    bottom: 55%;
+    left: 40%;
   }
-  .APPLICATIONS {
+  .applications {
     position: absolute;
-    bottom: 35%;
+    bottom: 45%;
     left: 60%;
   }
 }
