@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "roboto", sans-serif;
+  color: #000;
+}
+
+#logo {
+  position: absolute;
+  left: 40px;
+  height: 50px;
+}
+
+body {
+  background: linear-gradient(
+    to right,
+    #23445ab4 2%,
+    #47454073 2% 27%,
+    rgb(212, 209, 209) 27% 72%,
+    #4745408a 71% 100%
+  );
+}
+
+/*******************************************Nav-Bar*************************************/
+
+nav {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  margin-left: 20%;
+  background-color: #fff;
+  width: 60%;
+  height: 4%;
+  border: solid 1px #000;
+  top: 0%;
+}
+.header_nav_accueil {
+  display: flex;
+  margin-left: 5%;
+  font-size: 25px;
+  padding-right: 5%;
+  border-right: solid 1px #000;
+}
+.header_nav_prestations {
+  display: flex;
+  margin-left: 4%;
+  font-size: 25px;
+  padding-right: 4%;
+  border-right: solid 1px #000;
+}
+.header_nav_avis {
+  display: flex;
+  margin-left: 8%;
+  font-size: 25px;
+  padding-right: 8%;
+  border-right: solid 1px #000;
+}
+.header_nav_equipe {
+  display: flex;
+  margin-left: 6%;
+  font-size: 25px;
+  padding-right: 6%;
+  border-right: solid 1px #000;
+}
+.header_nav_contact {
+  display: flex;
+  margin-left: 5%;
+  font-size: 25px;
+  padding-right: 6%;
+}
+/*******************************************Nav-Bar FIN*************************************/
+h1 {
+  position: relative;
+  text-align: center;
+  top: 100px;
+  font-family: "Roboto", sans-serif;
+}
+
+#texte {
+  position: relative;
+  text-align: center;
+  top: 120px;
+}
+p {
+  font-family: "Roboto", sans-serif;
+}
+h4 {
+  font-family: "Roboto", sans-ser;
+  letter-spacing: 1px;
+}
+
+/********************** La classe des petites icones de la page ***********************/
+.image {
+  height: 50px;
+  position: absolute;
+  left: -60px;
+}
+/********************** La classe des petites icones de la page FIN ***********************/
+
+/**************************************Cologne Centre *********************************/
+
+.developpement {
+  position: absolute;
+  bottom: 41%;
+  left: 35%;
+}
+
+.applications {
+  position: absolute;
+  bottom: 41%;
+  left: 55%;
+}
+
+.consulting {
+  bottom: 26%;
+  position: absolute;
+  left: 35%;
+}
+
+.optimisation {
+  position: absolute;
+  bottom: 27%;
+  left: 55%;
+}
+/**************************************Cologne Centre FIN *********************************/
+
+/**************************************Cologne GAUCHE *************************************/
+
+.solution {
+  position: absolute;
+  bottom: 41%;
+  left: 12%;
+}
+
+.webmarketing {
+  position: absolute;
+  left: 12%;
+  bottom: 26%;
+}
+
+/************************************Cologne GAUCHE fin ***********************************/
+
+/************************************* Cologne doite **************************************/
+
+.hebergement {
+  position: absolute;
+  bottom: 41%;
+  right: 15%;
+}
+
+.accompagnement {
+  position: absolute;
+  right: 13.2%;
+  bottom: 25%;
+}
+
+/************************************* Cologne doite FIN **************************************/
+
+/***************************************Footer*************************************************/
+
+footer {
+  background-color: white;
+  height: 120px;
+  position: absolute;
+  bottom: 00%;
+  width: 98%;
+  left: 2%;
+}
+
+#adresse {
+  position: relative;
+  top: 15%;
+}
+
+#mentions {
+  position: absolute;
+  left: 35%;
+  bottom: 60%;
+}
+
+#Gestion {
+  position: absolute;
+  bottom: 60%;
+  left: 50%;
+}
+
+#copy {
+  position: absolute;
+  left: 35%;
+  bottom: 20%;
+}
+
+#icon {
+  position: absolute;
+  bottom: 5%;
+  right: 3%;
+  margin: 0 50px;
+  letter-spacing: 20px;
+}
+/***************************************Footer FIN*******************************************/
+
+/************************* Responsive **************************/
+
+@media screen and (max-width: 1100px) {
+  body {
+    display: block;
+  }
+  nav {
+    visibility: hidden;
+  }
+  main {
+    width: 100%;
+    height: 500px;
+  }
+  h1 {
+    top: 80%;
+    left: 50%;
+  }
+
+  .solution {
+    position: absolute;
+    bottom: 70%;
+    left: 40%;
+  }
+  .webmarketing {
+    position: absolute;
+    bottom: 65%;
+    left: 60%;
+  }
+
+  .developpement {
+    position: absolute;
+    bottom: 55%;
+    left: 40%;
+  }
+  .applications {
+    position: absolute;
+    bottom: 45%;
+    left: 60%;
+  }
+}
