@@ -48,6 +48,7 @@ label, #home_toggle{
         }
         .nav_burger .burger a{
                 width: 50%;
+                font-size: 145%;
         }
         label{
                 width: 30px;
